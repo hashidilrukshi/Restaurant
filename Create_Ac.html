@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/create.js"></script>
+</head>
+<body>
+    <header>
+        <h1><center><u>Yummy Restaurant</u></center></h1>
+        <hr>
+    </header>
+    <section>
+        <div class="reg">
+            <h1>Registration Form</h1>
+        </div>
+
+        <!-- form inputs -->
+
+        <div class="middle">
+            <form id="registrationForm" action="register.php" method="POST" onsubmit="return validateForm()">
+                <div id="name">
+                    <p>
+                        <label class="name">Name</label>
+                        <label>
+                            <input class="firstname" type="text" name="first_name" placeholder="Enter first name*" required>
+                            <input class="lastname" type="text" name="last_name" placeholder="Enter last name*" required>
+                        </label>
+                    </p>
+                </div>
+
+                <p>
+                    <label class="name">Gender</label>
+                    <label>
+                        <input class="gender" type="radio" value="male" name="gender">Male
+                        <input class="gender" type="radio" value="female" name="gender">Female
+                    </label>
+                </p>
+
+                <p>
+                    <label class="name">Email</label>
+                    <label>
+                        <input class="email" type="email" name="email" placeholder="Example@email.com*" required><br>
+                    </label>
+                </p>
+
+                <p>
+                    <label class="name">Password</label>
+                    <label>
+                        <input class="Password" type="password" name="password" id="password" placeholder="Your password*" pattern=".{5,10}" required><br><br>
+                        <input class="repassword" type="password" name="confirm_password" id="confirm_password" placeholder="Confirm password*" required><br>
+                    </label>
+                </p>
+                <footer>
+                    <button type="submit">Sign up</button>
+                </footer>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,135 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:0;
+}
+
+body
+{
+	background:url(../images/contact.webp) no-repeat;
+	background-size: cover;
+   	padding: 0;
+   	margin: 0;
+}
+
+.contact
+{
+	Transform: translate(0px,100px);
+
+
+
+
+}
+
+
+
+
+header
+{
+	background-image: linear-gradient(#51AED3, #137CC4);
+	height: 165px;
+	position: relative;
+}
+.logo img
+{
+	height: 140px;
+	width: 140px;
+	float: left;
+}
+
+.Navi
+{
+	background-image: linear-gradient(#9F7BE3, #7546CF);
+	transform: translate(0px,47px);
+}
+.navigation
+{
+	display: block;
+	text-align: center;
+	padding: 20px;
+}
+
+.navigation a
+{
+	text-decoration: none;
+	font-size: 18px;
+	padding: 20px;
+	letter-spacing: 1px;
+	color: white;
+
+}
+
+
+.LogSign
+{
+	float: right;
+	padding-right: 20px;
+	font-size: 18px;
+	color: white;
+}
+#SignUp
+{
+	color: white;
+	text-decoration: none;
+}
+#Login
+{
+	color: white;
+	text-decoration: none;
+}
+
+.Bottom_Btns
+{
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 12px;
+	background-image: linear-gradient(#EFEB9D, #C2BE64);
+	font-family: serifs;
+	font-size: 16px;
+}
+.Bottom_Btns:hover
+{
+	background-image: linear-gradient(#F9C586, #D6913F);
+}
+.description
+{
+	height: 500px;
+	bottom: -600px;
+	width: 35%;
+	margin-left: 33%;
+	transform: translate(0px, -535px);
+	background-color: rgb(0,0,0,0.5) ;
+
+	position: absolute;
+	border-style: groove;
+	border-color: #676026;
+	border-width: 5px;
+	border-radius: 20px;
+}
+.description h2
+{
+	padding-top: 10px;
+	text-align: center;
+	position: relative;
+	color: antiquewhite;
+}
+.descriptionInside
+{
+	padding-left: 10px;
+}
+.descriptionInside ol
+{
+	padding-left: 20px;	
+}
+
+.HL
+{
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	width: 50%;
+	margin: auto; /*Useful to get text to center*/
+	font-size: 20px;
+	letter-spacing: 1px;
+}

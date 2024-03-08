@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Help Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css_help/style.css">
+
+    <style>
+        body {
+            background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url('images/help.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+    </section>
+    <section class="contact">
+        <div class="content">
+            <h2>Help</h2>
+            <p>Dine Here, Feel at Home...........</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true" style="font-size:36px"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Yummy Food,<br>Kottawa,<br>Pannipitiya.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true" style="font-size:36px"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>Tol Free(Malabe)+94 77 123 456,<br>Kaduwela +94 71 123 456,<br>Maharagama +94 47 123 456</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true" style="font-size:36px"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>yummylk.@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="help.php" method="post">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="fullname" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="message" required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
